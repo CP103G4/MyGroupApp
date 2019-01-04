@@ -24,14 +24,5 @@
         tools:layout_editor_absoluteY="187dp"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/tView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2224ghjdhjhgfgh"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="187dp"
-        tools:ignore="MissingConstraints" />
-
 
 </LinearLayout>
