@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MyGroupApp</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="hint_etAccount">Your Account...</string>
+    <string name="hint_etPassword">Your Password...</string>
+    <string name="welcomeText1">Welcome to</string>
+    <string name="Welcometext2">Clo Clo</string>
+    <string name="Welcometext3">Shopping Mall</string>
+    <string name="LoginText">LogIn</string>
+    <string name="IgnoreText">先逛一下</string>
 </resources>
