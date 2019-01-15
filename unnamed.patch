@@ -1,0 +1,16 @@
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(date 1546587397000)
++++ app/src/main/res/layout/activity_main.xml	(date 1546588155000)
+@@ -28,7 +28,7 @@
+         android:id="@+id/tView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+-        android:text="Hello34yjhgfdhgfdjhgf"
++        android:text="我愛"
+         tools:layout_editor_absoluteX="144dp"
+         tools:layout_editor_absoluteY="187dp"
+         tools:ignore="MissingConstraints" />
