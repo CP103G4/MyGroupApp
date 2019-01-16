@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">MyGroupApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_Favorite">Favorite</string>
+    <string name="title_Cart">Cart</string>
+    <string name="title_information">information</string>
+    <string name="title_Information">Information</string>
+    <string name="title_favorite">favorite</string>
+    <string name="title_cart">cart</string>
+    <string name="title_activity_member">activity_member</string>
+    <string name="Member">Member</string>
     <string name="title_activity_login">Sign in</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -23,4 +34,5 @@
     <string name="Welcometext3">Shopping Mall</string>
     <string name="LoginText">LogIn</string>
     <string name="IgnoreText">先逛一下</string>
+    <string name="Home">Home</string>
 </resources>

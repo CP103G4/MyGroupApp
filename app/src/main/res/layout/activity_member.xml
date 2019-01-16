@@ -10,15 +10,19 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/sample"
+        android:layout_width="174dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="116dp"
+        android:src="@drawable/member"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
+
+
     <android.support.v7.widget.Toolbar
-        android:background="?attr/colorPrimary"
+        android:background="@color/clocloPrimary"
         android:id="@+id/toolbar"
         android:minHeight="?actionBarSize"
         android:layout_width="match_parent"
@@ -36,6 +40,18 @@
             android:gravity="center_horizontal"
             android:id="@+id/toolbar_title" />
     </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageedit"
+        android:layout_width="26dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <co.ceryle.segmentedbutton.SegmentedButtonGroup
         android:id="@+id/segmenttedButtonGroup"
@@ -90,6 +106,7 @@
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
+        app:labelVisibilityMode="labeled"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="0dp"
@@ -99,6 +116,66 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/navigation" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="289dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="308dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <TextView
+        android:id="@+id/textAdress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <EditText
+        android:id="@+id/editAdress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="447dp" />
 
 
 </android.support.constraint.ConstraintLayout>
