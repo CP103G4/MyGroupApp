@@ -32,7 +32,8 @@
     <string name="welcomeText1">Welcome to</string>
     <string name="Welcometext2">Clo Clo</string>
     <string name="Welcometext3">Shopping Mall</string>
-    <string name="LoginText">LogIn</string>
+    <string name="LoginText">L o g I n</string>
     <string name="IgnoreText">先逛一下</string>
     <string name="Home">Home</string>
+    <string name="textSignUp">Sign UP</string>
 </resources>

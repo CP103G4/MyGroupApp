@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <color name="colorWhite">#ffffff</color>
     <color name="colorPrimaryDark">#c48b9f</color>
     <color name="colorAccent">#D81B60</color>
     <color name="clocloPrimary">#F8BBD0</color>
