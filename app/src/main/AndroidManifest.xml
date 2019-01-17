@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.chia.mygroupapp">
+
     <!-- test_Hsieh -->
     <!-- test_Hsieh -->
     <!-- To auto-complete the email text field in the login form with the user's emails -->
@@ -24,14 +25,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Activity_member"
             android:label="@string/title_activity_member" />
         <activity
             android:name=".Login_Activity"
-            android:label="@string/title_activity_main2"
-             />
+            android:label="@string/title_activity_main2" />
+        <activity
+            android:name=".Activity_setting"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
