@@ -36,4 +36,5 @@
     <string name="IgnoreText">先逛一下</string>
     <string name="Home">Home</string>
     <string name="title_activity_setting">Activity_setting</string>
+    <string name="textSignUp">SignUp</string>
 </resources>

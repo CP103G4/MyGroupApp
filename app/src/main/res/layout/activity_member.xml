@@ -118,7 +118,7 @@
         app:menu="@menu/navigation" />
 
     <TextView
-        android:id="@+id/textName"
+        android:id="@+id/tvmembername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name"
@@ -127,7 +127,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editName"
+        android:id="@+id/etmembername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="15"
@@ -137,7 +137,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textPhone"
+        android:id="@+id/tvmemberphone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Phone"
@@ -146,7 +146,7 @@
         tools:layout_editor_absoluteY="371dp" />
 
     <EditText
-        android:id="@+id/editPhone"
+        android:id="@+id/etmemberphone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="15"
@@ -157,7 +157,7 @@
         tools:layout_editor_absoluteY="380dp" />
 
     <TextView
-        android:id="@+id/textAdress"
+        android:id="@+id/tvmemberadress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Adress"
@@ -166,7 +166,7 @@
         tools:layout_editor_absoluteY="439dp" />
 
     <EditText
-        android:id="@+id/editAdress"
+        android:id="@+id/etmamberadress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="15"

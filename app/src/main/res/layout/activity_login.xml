@@ -20,7 +20,7 @@
         <Button
             android:id="@+id/btSignUp"
             style="?android:buttonBarButtonStyle"
-            android:text="@string/textSignUp"
+            android:text="註冊"
             android:layout_gravity="end"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
